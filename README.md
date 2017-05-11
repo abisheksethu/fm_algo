@@ -1,5 +1,7 @@
 # fm_algo
 
+## General Information  ##
+
 --> hypergraph.txt file should be in project folder
 
 --> hypergraph.txt parsing content details
@@ -12,17 +14,16 @@
 		5. Type 1 Edges - Any Edge connecting two nodes of the graph
 		6. Type 2 Edges - Any Edge with steiner points
 
-
 --> Compiling and execution are performed using the script file
 	RUN: ./run.sh
 
---> Implementation Logic:
-	(1) the computation of initial gain values at the beginning of a pass; 
-	(2) the retrieval of the best-gain (feasible) move; 
-	(3) the update of all affected gain values after a move is made
-	(4)	Calculation of cumulative gain with ratio factor for pass 1
-	(5) Minimum Cutcost Calculation - Pending
+## Implementation Logic: ##
+	* the computation of initial gain values at the beginning of a pass; 
+	* the retrieval of the best-gain (feasible) move; 
+	* the update of all affected gain values after a move is made
+	*	Calculation of cumulative gain with ratio factor for pass 1
+	* Minimum Cutcost Calculation - Pending
 
---> Reference: 
+## Reference: ##
 	Hypergraph Partitioning by David A. Papa and Igor L. Markov
 	University of Michigan, EECS Department, Ann Arbor, MI 48109-2122
