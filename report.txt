@@ -1,0 +1,249 @@
+
+
+*****************************FM ALGORITHM*********************************
+****************************************************************************
+
+Graph details: 
+
+Total Area : 8
+
+Max Area : 1
+
+Cell-->a Gain-->-1 Area-->1 Partition-->1 te-->1 fs-->0
+Cell-->b Gain-->1 Area-->1 Partition-->2 te-->0 fs-->1
+Cell-->c Gain-->1 Area-->1 Partition-->1 te-->2 fs-->3
+Cell-->d Gain-->0 Area-->1 Partition-->1 te-->1 fs-->1
+Cell-->e Gain-->2 Area-->1 Partition-->2 te-->0 fs-->2
+Cell-->f Gain-->1 Area-->1 Partition-->2 te-->2 fs-->3
+Cell-->g Gain-->2 Area-->1 Partition-->1 te-->0 fs-->2
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 1
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2| ---> cell:2 e ---> cell:1 g
+Bucket array with gain |1| ---> cell:2 b ---> cell:1 c ---> cell:2 f
+Bucket array with gain |0| ---> cell:1 d
+Bucket array with gain |-1| ---> cell:1 a
+Bucket array with gain |-2| ---> cell:2 h
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5|
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell g
+
+Cell-->a Gain-->0 Area-->1 Partition-->1 te-->0 fs-->0
+Cell-->b Gain-->1 Area-->1 Partition-->2 te-->0 fs-->1
+Cell-->c Gain-->2 Area-->1 Partition-->1 te-->1 fs-->3
+Cell-->d Gain-->0 Area-->1 Partition-->1 te-->1 fs-->1
+Cell-->e Gain-->0 Area-->1 Partition-->2 te-->1 fs-->1
+Cell-->f Gain-->-1 Area-->1 Partition-->2 te-->3 fs-->2
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 2
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2| ---> cell:1 c
+Bucket array with gain |1| ---> cell:2 b
+Bucket array with gain |0| ---> cell:1 a ---> cell:1 d ---> cell:2 e
+Bucket array with gain |-1| ---> cell:2 f
+Bucket array with gain |-2| ---> cell:2 h
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5|
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell c
+
+Cell-->a Gain-->0 Area-->1 Partition-->1 te-->0 fs-->0
+Cell-->b Gain-->-1 Area-->1 Partition-->2 te-->1 fs-->0
+Cell-->d Gain-->2 Area-->1 Partition-->1 te-->0 fs-->2
+Cell-->e Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+Cell-->f Gain-->-3 Area-->1 Partition-->2 te-->4 fs-->1
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 3
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2| ---> cell:1 d
+Bucket array with gain |1|
+Bucket array with gain |0| ---> cell:1 a
+Bucket array with gain |-1| ---> cell:2 b
+Bucket array with gain |-2| ---> cell:2 e ---> cell:2 h
+Bucket array with gain |-3| ---> cell:2 f
+Bucket array with gain |-4|
+Bucket array with gain |-5|
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell b
+
+Cell-->a Gain-->0 Area-->1 Partition-->1 te-->0 fs-->0
+Cell-->d Gain-->2 Area-->1 Partition-->1 te-->0 fs-->2
+Cell-->e Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+Cell-->f Gain-->-3 Area-->1 Partition-->2 te-->4 fs-->1
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 4
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2| ---> cell:1 d
+Bucket array with gain |1|
+Bucket array with gain |0| ---> cell:1 a
+Bucket array with gain |-1|
+Bucket array with gain |-2| ---> cell:2 e ---> cell:2 h
+Bucket array with gain |-3| ---> cell:2 f
+Bucket array with gain |-4|
+Bucket array with gain |-5|
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell d
+
+Cell-->a Gain-->0 Area-->1 Partition-->1 te-->0 fs-->0
+Cell-->e Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+Cell-->f Gain-->-5 Area-->1 Partition-->2 te-->5 fs-->0
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 5
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2|
+Bucket array with gain |1|
+Bucket array with gain |0| ---> cell:1 a
+Bucket array with gain |-1|
+Bucket array with gain |-2| ---> cell:2 e ---> cell:2 h
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5| ---> cell:2 f
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell e
+
+Cell-->a Gain-->0 Area-->1 Partition-->1 te-->0 fs-->0
+Cell-->f Gain-->-5 Area-->1 Partition-->2 te-->5 fs-->0
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 6
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2|
+Bucket array with gain |1|
+Bucket array with gain |0| ---> cell:1 a
+Bucket array with gain |-1|
+Bucket array with gain |-2| ---> cell:2 h
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5| ---> cell:2 f
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell a
+
+Cell-->f Gain-->-5 Area-->1 Partition-->2 te-->5 fs-->0
+Cell-->h Gain-->-2 Area-->1 Partition-->2 te-->2 fs-->0
+
+Iteration : 7
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2|
+Bucket array with gain |1|
+Bucket array with gain |0|
+Bucket array with gain |-1|
+Bucket array with gain |-2| ---> cell:2 h
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5| ---> cell:2 f
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell h
+
+Cell-->f Gain-->-1 Area-->1 Partition-->2 te-->3 fs-->2
+
+Iteration : 8
+
+Bucket array with gain |7|
+Bucket array with gain |6|
+Bucket array with gain |5|
+Bucket array with gain |4|
+Bucket array with gain |3|
+Bucket array with gain |2|
+Bucket array with gain |1|
+Bucket array with gain |0|
+Bucket array with gain |-1| ---> cell:2 f
+Bucket array with gain |-2|
+Bucket array with gain |-3|
+Bucket array with gain |-4|
+Bucket array with gain |-5|
+Bucket array with gain |-6|
+Bucket array with gain |-7|
+
+Selected fixed cell:  cell f
+
+
+
+*************************REPORT FOR PASS 1*******************************
+*************************************************************************
+
+Total Area : 8
+
+Max Area : 1
+
+Cumulative Gain for iteration1 = 2 Partition1 RF 0.375
+
+Cumulative Gain for iteration2 = 4 Partition1 RF 0.25
+
+Cumulative Gain for iteration3 = 3 Partition1 RF 0.375
+
+Cumulative Gain for iteration4 = 5 Partition1 RF 0.25
+
+Cumulative Gain for iteration5 = 3 Partition1 RF 0.375
+
+Cumulative Gain for iteration6 = 3 Partition1 RF 0.25
+
+Cumulative Gain for iteration7 = 1 Partition1 RF 0.375
+
+Cumulative Gain for iteration8 = 0 Partition1 RF 0.5
+
+Selected cumulative gain is 5
+
+nodes selected for movement(partition no) g(2)  c(2)  b(1)  d(2)  
+
+
+
+******************************END****************************************
+*************************************************************************
+

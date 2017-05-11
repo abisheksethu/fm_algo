@@ -1,0 +1,13 @@
+r 0.375
+n 5
+a 2
+b 4
+c 1
+d 4
+e 5
+B cde
+1 ab
+1 cd
+1 ad
+1 ae
+2 abc
