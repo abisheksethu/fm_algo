@@ -2,17 +2,17 @@
 
 ## General Information  ##
 
---> hypergraph.txt file should be in project folder
+hypergraph.txt file should be in project folder
+hypergraph.txt parsing content details
 
---> hypergraph.txt parsing content details
 	* The parsing file should contains only two columns
 	* The order of representing contents should be followed
-		1. ratio factor
-		2. Number of nodes/cells (do not use x and y)
-		3. Area of the nodes/cells in alphabetical order
-		4. Partition 2/B details - group of possible nodes in B
-		5. Type 1 Edges - Any Edge connecting two nodes of the graph
-		6. Type 2 Edges - Any Edge with steiner points
+		* ratio factor
+		* Number of nodes/cells (do not use x and y)
+		* Area of the nodes/cells in alphabetical order
+		* Partition 2/B details - group of possible nodes in B
+		* Type 1 Edges - Any Edge connecting two nodes of the graph
+		* Type 2 Edges - Any Edge with steiner points
 
 --> Compiling and execution are performed using the script file
 	RUN: ./run.sh
