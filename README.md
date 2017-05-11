@@ -18,10 +18,10 @@
 	RUN: ./run.sh
 
 ## Implementation Logic: ##
-	* the computation of initial gain values at the beginning of a pass; 
-	* the retrieval of the best-gain (feasible) move; 
-	* the update of all affected gain values after a move is made
-	*	Calculation of cumulative gain with ratio factor for pass 1
+	* computation of initial gain values at the beginning of a pass; 
+	* retrieval of the best-gain (feasible) move; 
+	* update all affected gain values after a move is made
+	* Calculation of cumulative gain with ratio factor for pass 1
 	* Minimum Cutcost Calculation - Pending
 
 ## Reference: ##
